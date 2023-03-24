@@ -96,6 +96,10 @@ main > article > .article-description-section {
     padding-top: 10px;
     font-family: 'Rubik', sans-serif;
     font-weight: 90;
+    background-image: radial-gradient(var(--border-color) 10%, transparent 20%);
+    background-color: var(--background-color);
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
 }
 
 main > article > .article-title-section,
